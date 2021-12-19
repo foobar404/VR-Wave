@@ -16,7 +16,7 @@ function setupCircle() {
         box.setAttribute("width", cubeSize);
         box.setAttribute("position", `${y} 0 ${x}`);
         box.setAttribute("color", randomColor());
-        scene.appendChild(box);
+        scene.appendChild(box);  
     }
 }
 
